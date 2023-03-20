@@ -378,7 +378,22 @@
 						</li>
 					</ul>
 				</div>
+				<div>
+					<form class="form-footer">
+						<label class="label-footer" for="name">Subscribe</label>
+						<div class="input-button">
+						<input class="input-footer" type="text" name="name" id="name" placeholder="E-mail">
+						<button class="button-subscribe" type="submit">Subscribe
+							<svg class="svg-footer">
+								<use href="./images-ikon/icons.svg#icon-subscribe"></use>
+							</svg>
+						</button>
+						</div>
+					</form>
+				</div>
+				
 			</div>
+			
 		</footer>
 
 		<div data-modal class="backdroup is-hidden">
@@ -388,7 +403,47 @@
 						<use href="./images-ikon/icons.svg#icon-close-button"></use>
 					</svg>
 				</button>
+				<p class="modal-text">Leave your contacts and we will call you back</p>
+			<form class="modal-form">
+				<label class="label-text">
+					Name
+					<input class="input-modal" type="text" name="text"/>
+					<svg class="svg-modal svg-modal-person">
+						<use href="./images-ikon/icons.svg#icon-person-black"></use>
+					</svg>
+				</label>
+				<label class="label-text">Phone
+					<input class="input-modal" type="number" name="number"/>
+					<svg class="svg-modal svg-modal-phone">
+						<use href="./images-ikon/icons.svg#icon-phone-black"></use>
+					</svg>
+				</label>
+				<label class="label-text">Email
+					<input class="input-modal" type="email" name="email"/>
+					<svg class="svg-modal svg-modal-email">
+						<use href="./images-ikon/icons.svg#icon-email-black"></use>
+					</svg>
+				</label>
+				<label class="label-text">
+					Comment
+					<textarea class="textarea-modal" rows="6" placeholder="Type input"></textarea>
+				</label>
+				<label class="label-checbox">
+					<input class="hidden-checkbox" type="checkbox" name="terms">
+					<div class="check">
+						<svg>
+							<use href="./images-ikon/icons.svg#icon-checkbox">
+							</use>
+						</svg>
+					</div>
+					<span>I accept the terms and conditions of the <a class="policy-link" href="#">Privacy Policy</a></span> 
+				  </label> 
+				  <div class="submit-block">
+					<button class="btn btn-blue" type="submit">Send</button>
+				  </div>
+			</form>
 			</div>
+			
 		</div>
 	</body>
 	<script src="./js/modal.js"></script>
