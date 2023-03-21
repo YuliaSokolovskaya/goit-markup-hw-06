@@ -465,6 +465,7 @@ background-color: #FFFFFF;
     display: flex;
     align-items: center;
     gap: 16px;
+    border:none;
     
     
    
@@ -483,12 +484,13 @@ background-color: #FFFFFF;
     background-color: var(--text-color-dark);
     border: 1px #FFFFFF solid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
+    border-radius: 4px;
     height: 38px;
     width: 264px;
     padding: 16px;
     font-size: 12px;
     margin-right: 24px;
+    color: #FFF;
 }
 .input-footer::placeholder{
     color: #FFFFFF;
